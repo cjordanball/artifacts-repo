@@ -2,8 +2,7 @@ name: Deploy website
 on:
   push:
     branches:
-      - main
-jobs:
+      - source
   test:
     runs-on: ubuntu-latest
     steps:
